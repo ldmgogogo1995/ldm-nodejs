@@ -16,4 +16,4 @@ router.delete('/del', (req, res) => {
   console.log('删除用户')
   res.send({ code: 200, data: 0, message: '删除用户成功' })
 })
-module.exports = router
+ 
